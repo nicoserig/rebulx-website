@@ -30,7 +30,7 @@ export default function Footer() {
 	
 	return (
 		<footer className={css.container}>
-			<Container spacing={['verticalXXLrg', 'bottomLrg']}>
+			<Container spacing={['verticalMed', 'bottomLrg']}>
 				<section className={css.sections}>
 					
 					{/*<ul className={css.thanks}>
@@ -60,7 +60,7 @@ export default function Footer() {
 						}
 					</ul>*/}
 					{/*<ul className={css.social}>
-						<li><h4>Social</h4></li>
+						<li><h4>Redes sociales</h4></li>
 						<li className={css.socialList}>
 							{
 							content.social.map( ({ url, icon }, index) => {
@@ -72,7 +72,7 @@ export default function Footer() {
 						</li>
 						</ul>*/}
 				</section>
-				<h4 className={css.thanks}>© 2023 REBULX. Todos los derechos reservados.</h4>
+				<h4 className={css.thanks}>© 2024 REBULX. Todos los derechos reservados.<br/><br/>Puedes contactarnos en <a href='mailto:info@rebulx.com'>info@rebulx.com</a></h4>				
 				{/*<section className={css.github}>
 					<a href={settings.portfolio.repo_html} rel="noreferrer" target="_blank">
 						<h5>{settings.portfolio.forkthis}</h5>

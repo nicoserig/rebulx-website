@@ -72,7 +72,7 @@ export default function Footer() {
 						</li>
 						</ul>*/}
 				</section>
-				<h4 className={css.thanks}>© 2023 REBULX. Todos los derechos reservados.</h4>
+				<h4 className={css.thanks}>© 2024 REBULX. Todos los derechos reservados.</h4>
 				{/*<section className={css.github}>
 					<a href={settings.portfolio.repo_html} rel="noreferrer" target="_blank">
 						<h5>{settings.portfolio.forkthis}</h5>

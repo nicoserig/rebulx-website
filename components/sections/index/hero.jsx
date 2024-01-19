@@ -67,7 +67,7 @@ export default function Hero() {
 				</section>
 				<section>
 					<button	className={`button ${button.primary}`}
-							onClick={ () => window.location = 'mailto:nicolas@rebulx.com?subject=First%20contact%20%7C%20%3CMy%20Company%20Name%3E&body=Hello%20RBX%20team!%0A%0A...' } >
+							onClick={ () => window.location = 'mailto:info@rebulx.com?subject=Primer%20contacto%20%7C%20%3CNombre%20de%20mi%20empresa%3E&body=Hola%20equipo%20REBULX!%0A%0A...' } >
 						{content.buttons.primary.title}
 					</button>
 					{/*<button className={`button ${button.secondary} leaveSite`}
